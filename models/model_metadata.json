@@ -1,0 +1,24 @@
+{
+    "project": "Manufacturing Defect Prediction",
+    "model": "Optimized XGBoost Classifier",
+    "dataset": "Synthetic Manufacturing Dataset",
+    "dataset_samples": 500,
+    "classification_threshold": 0.35,
+    "accuracy": 0.48,
+    "precision": 0.3088,
+    "recall": 0.8077,
+    "f1_score": 0.4468,
+    "features": [
+        "Machine_Temperature_C",
+        "Injection_Pressure_bar",
+        "Cycle_Time_sec",
+        "Cooling_Time_sec",
+        "Material_Moisture_pct",
+        "Operator_Experience_years",
+        "Part_Weight_g",
+        "Dimensional_Deviation_mm",
+        "Surface_Roughness_um"
+    ],
+    "target": "Defect",
+    "note": "Exploratory results on a synthetic dataset. Not validated for real industrial deployment."
+}
